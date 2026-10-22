@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Model checkpoints & large weights
+*.pt
+*.pth
+*.bin
+*.ckpt
+checkpoints/
+
+# IDE & OS
+.DS_Store
+.vscode/
+.idea/
+.claude/
+.agents/
+
+# Temporary / logs
+*.log
